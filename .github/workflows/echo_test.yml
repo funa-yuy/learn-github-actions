@@ -1,12 +1,12 @@
 name: Put hello world
 
 on:
-  pull_request:
-    branches:
+  pull_request: #発動条件→pull_requestが起こったとき
+    branches: #対象のbranche
       - '*'
   workflow_dispatch:
-    
-jobs:
+
+jobs:  #実行内容
   build:
     runs-on: ubuntu-latest
     steps:
