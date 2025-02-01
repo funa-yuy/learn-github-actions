@@ -2,7 +2,7 @@ name: Put hello world
 
 on:
   pull_request: #発動条件→pull_requestが起こったとき
-    branches: #対象のファイル
+    branches: #対象のbranche
       - '*'
   workflow_dispatch:
 
